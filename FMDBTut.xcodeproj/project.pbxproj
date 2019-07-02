@@ -8,20 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		C02828A01DA3C09700168A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C028289F1DA3C09700168A48 /* AppDelegate.swift */; };
-		C02828A21DA3C09700168A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02828A11DA3C09700168A48 /* ViewController.swift */; };
 		C02828A51DA3C09700168A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02828A31DA3C09700168A48 /* Main.storyboard */; };
 		C02828A71DA3C09700168A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02828A61DA3C09700168A48 /* Assets.xcassets */; };
 		C02828AA1DA3C09700168A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02828A81DA3C09700168A48 /* LaunchScreen.storyboard */; };
+		C02828B21DA3C0A500168A48 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02828B11DA3C0A500168A48 /* MoviesViewController.swift */; };
+		C02828B41DA3C0B200168A48 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02828B31DA3C0B200168A48 /* MovieDetailsViewController.swift */; };
+		C02828B61DA3C2DC00168A48 /* movies.tsv in Resources */ = {isa = PBXBuildFile; fileRef = C02828B51DA3C2DC00168A48 /* movies.tsv */; };
+		C0F8EF771DA7C33E00318523 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F8EF761DA7C33E00318523 /* libsqlite3.tbd */; };
+		D868547622CAFCBC006AED0F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D868546B22CAFCBB006AED0F /* FMResultSet.m */; };
+		D868547722CAFCBC006AED0F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D868546C22CAFCBB006AED0F /* FMDatabasePool.m */; };
+		D868547822CAFCBC006AED0F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D868546D22CAFCBB006AED0F /* FMDatabaseQueue.m */; };
+		D868547922CAFCBC006AED0F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D868546E22CAFCBB006AED0F /* FMDatabaseAdditions.m */; };
+		D868547A22CAFCBC006AED0F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D868547222CAFCBB006AED0F /* FMDatabase.m */; };
+		D868547C22CAFDE0006AED0F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868547B22CAFDE0006AED0F /* DBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C028289C1DA3C09700168A48 /* FMDBTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C028289F1DA3C09700168A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C02828A11DA3C09700168A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C02828A41DA3C09700168A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C02828A61DA3C09700168A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02828A91DA3C09700168A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02828AB1DA3C09700168A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02828B11DA3C0A500168A48 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		C02828B31DA3C0B200168A48 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C02828B51DA3C2DC00168A48 /* movies.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = movies.tsv; sourceTree = "<group>"; };
+		C0F8EF761DA7C33E00318523 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D868546A22CAFCBA006AED0F /* FMDBTut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDBTut-Bridging-Header.h"; sourceTree = "<group>"; };
+		D868546B22CAFCBB006AED0F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D868546C22CAFCBB006AED0F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D868546D22CAFCBB006AED0F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D868546E22CAFCBB006AED0F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D868546F22CAFCBB006AED0F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D868547022CAFCBB006AED0F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D868547122CAFCBB006AED0F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D868547222CAFCBB006AED0F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D868547322CAFCBB006AED0F /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D868547422CAFCBB006AED0F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D868547522CAFCBB006AED0F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D868547B22CAFDE0006AED0F /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F8EF771DA7C33E00318523 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,7 @@
 			children = (
 				C028289E1DA3C09700168A48 /* FMDBTut */,
 				C028289D1DA3C09700168A48 /* Products */,
+				C0F8EF751DA7C33E00318523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,45 @@
 		C028289E1DA3C09700168A48 /* FMDBTut */ = {
 			isa = PBXGroup;
 			children = (
+				D868546922CAFC92006AED0F /* FMDB */,
 				C028289F1DA3C09700168A48 /* AppDelegate.swift */,
-				C02828A11DA3C09700168A48 /* ViewController.swift */,
+				C02828B11DA3C0A500168A48 /* MoviesViewController.swift */,
+				C02828B31DA3C0B200168A48 /* MovieDetailsViewController.swift */,
+				D868547B22CAFDE0006AED0F /* DBManager.swift */,
 				C02828A31DA3C09700168A48 /* Main.storyboard */,
 				C02828A61DA3C09700168A48 /* Assets.xcassets */,
 				C02828A81DA3C09700168A48 /* LaunchScreen.storyboard */,
 				C02828AB1DA3C09700168A48 /* Info.plist */,
+				C02828B51DA3C2DC00168A48 /* movies.tsv */,
 			);
 			path = FMDBTut;
+			sourceTree = "<group>";
+		};
+		C0F8EF751DA7C33E00318523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0F8EF761DA7C33E00318523 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D868546922CAFC92006AED0F /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				D868547022CAFCBB006AED0F /* FMDatabase.h */,
+				D868547222CAFCBB006AED0F /* FMDatabase.m */,
+				D868547122CAFCBB006AED0F /* FMDatabaseAdditions.h */,
+				D868546E22CAFCBB006AED0F /* FMDatabaseAdditions.m */,
+				D868547522CAFCBB006AED0F /* FMDatabasePool.h */,
+				D868546C22CAFCBB006AED0F /* FMDatabasePool.m */,
+				D868546F22CAFCBB006AED0F /* FMDatabaseQueue.h */,
+				D868546D22CAFCBB006AED0F /* FMDatabaseQueue.m */,
+				D868547322CAFCBB006AED0F /* FMDB.h */,
+				D868547422CAFCBB006AED0F /* FMResultSet.h */,
+				D868546B22CAFCBB006AED0F /* FMResultSet.m */,
+				D868546A22CAFCBA006AED0F /* FMDBTut-Bridging-Header.h */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +154,8 @@
 				TargetAttributes = {
 					C028289B1DA3C09700168A48 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 34PVCRW63B;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -105,6 +165,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -123,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02828B61DA3C2DC00168A48 /* movies.tsv in Resources */,
 				C02828AA1DA3C09700168A48 /* LaunchScreen.storyboard in Resources */,
 				C02828A71DA3C09700168A48 /* Assets.xcassets in Resources */,
 				C02828A51DA3C09700168A48 /* Main.storyboard in Resources */,
@@ -136,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C02828A21DA3C09700168A48 /* ViewController.swift in Sources */,
+				C02828B41DA3C0B200168A48 /* MovieDetailsViewController.swift in Sources */,
 				C02828A01DA3C09700168A48 /* AppDelegate.swift in Sources */,
+				D868547722CAFCBC006AED0F /* FMDatabasePool.m in Sources */,
+				D868547622CAFCBC006AED0F /* FMResultSet.m in Sources */,
+				D868547C22CAFDE0006AED0F /* DBManager.swift in Sources */,
+				C02828B21DA3C0A500168A48 /* MoviesViewController.swift in Sources */,
+				D868547922CAFCBC006AED0F /* FMDatabaseAdditions.m in Sources */,
+				D868547822CAFCBC006AED0F /* FMDatabaseQueue.m in Sources */,
+				D868547A22CAFCBC006AED0F /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +327,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 34PVCRW63B;
 				INFOPLIST_FILE = FMDBTut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FMDBTut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "FMDBTut/FMDB/FMDBTut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -270,11 +343,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 34PVCRW63B;
 				INFOPLIST_FILE = FMDBTut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FMDBTut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "FMDBTut/FMDB/FMDBTut-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -297,6 +373,7 @@
 				C02828B01DA3C09700168A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
